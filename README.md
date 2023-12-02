@@ -1,25 +1,10 @@
-# advent-of-code
+# Advent of Code
+My solutions doing [AoC](https://adventofcode.com/).
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [crusnak][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+---
 
-In this repository, crusnak is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+All problems were solved in [Kotlin](https://kotlinlang.org/).
 
-If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
-
-- [Kotlin docs][docs]
-- [Kotlin Slack][slack]
-- Template [issue tracker][issues]
-
-
-[^aoc]:
-    [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
-    Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-five days.
-    You can solve the puzzle and provide an answer using the language of your choice.
-
-[aoc]: https://adventofcode.com
-[docs]: https://kotlinlang.org/docs/home.html
-[github]: https://github.com/crusnak
-[issues]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template/issues
-[kotlin]: https://kotlinlang.org
-[slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
-[template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+| Day | Problem                                            | Solution                   |
+| --- |----------------------------------------------------|----------------------------|
+| 1   | [Trebuchet?!](https://adventofcode.com/2023/day/1) | [Day01.kt](./src/Day01.kt) |
