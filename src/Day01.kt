@@ -13,13 +13,13 @@ fun part1(lines: List<String>): Int {
 fun part2(lines: List<String>): Int {
     val numbers = listOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine")
     return lines.sumOf { line: String ->
-        val first = line.findAnyOf(numbers)
-        val last = line.findLastAnyOf(numbers)
-        "${first?.second?.let { toDigit(it) }}${last?.second?.let { toDigit(it) }}".toInt()
+        val first = line.findAnyOf(numbers)?.second
+        val last = line.findLastAnyOf(numbers)?.second
+        "${toDigit(first)}${toDigit(last)}".toInt()
     }
 }
 
-private fun toDigit(text: String): String {
+private fun toDigit(text: String?): String {
     return when (text) {
         "one" -> "1"
         "two" -> "2"
@@ -30,6 +30,7 @@ private fun toDigit(text: String): String {
         "seven" -> "7"
         "eight" -> "8"
         "nine" -> "9"
+        null -> error("Unable to find digit in line")
         else -> text
     }
 }
