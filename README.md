@@ -12,3 +12,4 @@ All problems were solved in [Kotlin](https://kotlinlang.org/).
 | 3   | [Gear Ratios](https://adventofcode.com/2023/day/3)                     | [Day03.kt](./src/Day03.kt) |
 | 4   | [Scratchcards](https://adventofcode.com/2023/day/4)                    | [Day04.kt](./src/Day04.kt) |
 | 5   | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [Day05.kt](./src/Day05.kt) |
+| 6   | [Wait For It](https://adventofcode.com/2023/day/6)                     | [Day06.kt](./src/Day06.kt) |
