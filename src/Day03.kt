@@ -86,7 +86,7 @@ class Day03(lines: List<String>) {
 }
 
 fun main() {
-    val day = Day03(readInput("Day03"))
+    val day = Day03(readInputAsList("Day03"))
     println(day.part1())
     println(day.part2())
 }

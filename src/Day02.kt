@@ -40,7 +40,7 @@ class Day02(private val lines: List<String>) {
 }
 
 fun main() {
-    val day = Day02(readInput("Day02"))
+    val day = Day02(readInputAsList("Day02"))
     println(day.part1())
     println(day.part2())
 }

@@ -1,7 +1,7 @@
 fun main() {
-    val lines = readInput("Day01")
-    part1(lines).println()
-    part2(lines).println()
+    val lines = readInputAsList("Day01")
+    println(part1(lines))
+    println(part2(lines))
 }
 
 fun part1(lines: List<String>): Int {

@@ -37,7 +37,7 @@ class Card(input: String) {
 }
 
 fun main() {
-    val day = Day04(readInput("Day04"))
+    val day = Day04(readInputAsList("Day04"))
     println("Part 1: ${day.part1()}")
     println("Part 2: ${day.part2()}")
 }
