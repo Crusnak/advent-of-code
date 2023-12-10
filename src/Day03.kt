@@ -21,19 +21,6 @@ class Day03(lines: List<String>) {
         fun isGear(): Boolean {
             return char == '*'
         }
-
-        fun adjacentCoords(): Set<Vector2> {
-            return buildSet {
-                add(Vector2(coords.x, coords.y - 1))
-                add(Vector2(coords.x, coords.y + 1))
-                add(Vector2(coords.x - 1, coords.y))
-                add(Vector2(coords.x - 1, coords.y - 1))
-                add(Vector2(coords.x - 1, coords.y + 1))
-                add(Vector2(coords.x + 1, coords.y))
-                add(Vector2(coords.x + 1, coords.y - 1))
-                add(Vector2(coords.x + 1, coords.y + 1))
-            }
-        }
     }
 
     data class Number(val value: Int, val coords: Vector2, val range: IntRange) {
