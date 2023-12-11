@@ -13,3 +13,5 @@ All problems were solved in [Kotlin](https://kotlinlang.org/).
 | 4   | [Scratchcards](https://adventofcode.com/2023/day/4)                    | [Day04.kt](./src/Day04.kt) |
 | 5   | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [Day05.kt](./src/Day05.kt) |
 | 6   | [Wait For It](https://adventofcode.com/2023/day/6)                     | [Day06.kt](./src/Day06.kt) |
+| 7   | [Camel Cards](https://adventofcode.com/2023/day/7)                     | [Day07.kt](./src/Day07.kt) |
+| 8   | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [Day08.kt](./src/Day08.kt) |
