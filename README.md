@@ -15,3 +15,4 @@ All problems were solved in [Kotlin](https://kotlinlang.org/).
 | 6   | [Wait For It](https://adventofcode.com/2023/day/6)                     | [Day06.kt](./src/Day06.kt) |
 | 7   | [Camel Cards](https://adventofcode.com/2023/day/7)                     | [Day07.kt](./src/Day07.kt) |
 | 8   | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [Day08.kt](./src/Day08.kt) |
+| 9   | [Mirage Maintenance](https://adventofcode.com/2023/day/9)              | [Day09.kt](./src/Day09.kt) |
