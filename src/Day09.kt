@@ -1,5 +1,3 @@
-import kotlin.math.abs
-
 class Day09 : Day(9) {
     private val histories = inputList.map { it.split(' ').map(String::toInt) }
 
