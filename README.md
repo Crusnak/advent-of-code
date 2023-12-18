@@ -1,4 +1,5 @@
 # Advent of Code
+
 My solutions doing [AoC](https://adventofcode.com/).
 
 ---
@@ -17,3 +18,4 @@ All problems were solved in [Kotlin](https://kotlinlang.org/).
 | 8   | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [Day08.kt](./src/Day08.kt) |
 | 9   | [Mirage Maintenance](https://adventofcode.com/2023/day/9)              | [Day09.kt](./src/Day09.kt) |
 | 10  | [Pipe Maze](https://adventofcode.com/2023/day/10)                      | [Day10.kt](./src/Day10.kt) |
+| 11  | [Cosmic Expansion](https://adventofcode.com/2023/day/11)               | [Day11.kt](./src/Day11.kt) |
