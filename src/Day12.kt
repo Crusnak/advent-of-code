@@ -1,4 +1,6 @@
 class Day12 : Day(12) {
+    private val cache: HashMap<Pair<String, List<Int>>, Long> = hashMapOf()
+
     data class Row(val springs: String, val damageGroups: List<Int>) {
         fun unfold(): Row {
             return Row((0 until 5).joinToString("?") { springs }, damageGroups.repeat(5))
@@ -26,6 +28,10 @@ class Day12 : Day(12) {
             return 0
         }
 
+        if (cache.contains(Pair(springs, groups))) {
+            return cache[Pair(springs, groups)]!!
+        }
+
         if (springs.first() in "?.") {
             total += computeArrangements(springs.substring(1), groups)
         }
@@ -39,14 +45,17 @@ class Day12 : Day(12) {
                 }
             }
         }
+        cache[Pair(springs, groups)] = total
         return total
     }
 
     override fun partOne(): Long {
+        cache.clear()
         return rows.sumOf { (springs, groups) -> computeArrangements(springs, groups) }
     }
 
     override fun partTwo(): Long {
+        cache.clear()
         return rows.map(Row::unfold)
             .sumOf { (springs, groups) -> computeArrangements(springs, groups) }
     }
