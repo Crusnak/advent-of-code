@@ -9,38 +9,39 @@ My solutions throughtout the years doing [AoC](https://adventofcode.com/).
 
 ## 2024
 
-| Day | Problem                                                                 | Solution                      |
-| --- | ---                                                                     | ---                           |
-| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1)               | []()      |
+| Day | Problem                                                                 | Solution                          |
+| --- | ---                                                                     |-----------------------------------|
+| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1)               | [index.ts](./2024/day01/index.ts) |
+| 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [index.ts](./2024/day02/index.ts) |
+
 <details>
 <summary>Not released yet</summary>
 
-| Day | Problem                                   | Solution |
-| --- | ---                                       | ---      |
-| 2   | [?](https://adventofcode.com/2024/day/2)  | [?](./2024/day02/main.?) |
-| 3   | [?](https://adventofcode.com/2024/day/3)  | [?](./2024/day03/main.?) |
-| 4   | [?](https://adventofcode.com/2024/day/4)  | [?](./2024/day04/main.?) |
-| 5   | [?](https://adventofcode.com/2024/day/5)  | [?](./2024/day05/main.?) |
-| 6   | [?](https://adventofcode.com/2024/day/6)  | [?](./2024/day06/main.?) |
-| 7   | [?](https://adventofcode.com/2024/day/7)  | [?](./2024/day07/main.?) |
-| 8   | [?](https://adventofcode.com/2024/day/8)  | [?](./2024/day08/main.?) |
-| 9   | [?](https://adventofcode.com/2024/day/9)  | [?](./2024/day09/main.?) |
-| 10  | [?](https://adventofcode.com/2024/day/10) | [?](./2024/day10/main.?) |
-| 11  | [?](https://adventofcode.com/2024/day/11) | [?](./2024/day11/main.?) |
-| 12  | [?](https://adventofcode.com/2024/day/12) | [?](./2024/day12/main.?) |
-| 13  | [?](https://adventofcode.com/2024/day/13) | [?](./2024/day13/main.?) |
-| 14  | [?](https://adventofcode.com/2024/day/14) | [?](./2024/day14/main.?) |
-| 15  | [?](https://adventofcode.com/2024/day/15) | [?](./2024/day15/main.?) |
-| 16  | [?](https://adventofcode.com/2024/day/16) | [?](./2024/day16/main.?) |
-| 17  | [?](https://adventofcode.com/2024/day/17) | [?](./2024/day17/main.?) |
-| 18  | [?](https://adventofcode.com/2024/day/18) | [?](./2024/day18/main.?) |
-| 19  | [?](https://adventofcode.com/2024/day/19) | [?](./2024/day19/main.?) |
-| 20  | [?](https://adventofcode.com/2024/day/20) | [?](./2024/day20/main.?) |
-| 21  | [?](https://adventofcode.com/2024/day/21) | [?](./2024/day21/main.?) |
-| 22  | [?](https://adventofcode.com/2024/day/22) | [?](./2024/day22/main.?) |
-| 23  | [?](https://adventofcode.com/2024/day/23) | [?](./2024/day23/main.?) |
-| 24  | [?](https://adventofcode.com/2024/day/24) | [?](./2024/day24/main.?) |
-| 25  | [?](https://adventofcode.com/2024/day/25) | [?](./2024/day25/main.?) |
+| Day | Problem                                   | Solution                          |
+| --- | ---                                       |-----------------------------------|
+| 3   | [?](https://adventofcode.com/2024/day/3)  | [index.ts](./2024/day03/index.ts) |
+| 4   | [?](https://adventofcode.com/2024/day/4)  | [index.ts](./2024/day04/index.ts) |
+| 5   | [?](https://adventofcode.com/2024/day/5)  | [index.ts](./2024/day05/index.ts) |
+| 6   | [?](https://adventofcode.com/2024/day/6)  | [index.ts](./2024/day06/index.ts) |
+| 7   | [?](https://adventofcode.com/2024/day/7)  | [index.ts](./2024/day07/index.ts) |
+| 8   | [?](https://adventofcode.com/2024/day/8)  | [index.ts](./2024/day08/index.ts) |
+| 9   | [?](https://adventofcode.com/2024/day/9)  | [index.ts](./2024/day09/index.ts) |
+| 10  | [?](https://adventofcode.com/2024/day/10) | [index.ts](./2024/day10/index.ts) |
+| 11  | [?](https://adventofcode.com/2024/day/11) | [index.ts](./2024/day11/index.ts) |
+| 12  | [?](https://adventofcode.com/2024/day/12) | [index.ts](./2024/day12/index.ts) |
+| 13  | [?](https://adventofcode.com/2024/day/13) | [index.ts](./2024/day13/index.ts) |
+| 14  | [?](https://adventofcode.com/2024/day/14) | [index.ts](./2024/day14/index.ts) |
+| 15  | [?](https://adventofcode.com/2024/day/15) | [index.ts](./2024/day15/index.ts) |
+| 16  | [?](https://adventofcode.com/2024/day/16) | [index.ts](./2024/day16/index.ts) |
+| 17  | [?](https://adventofcode.com/2024/day/17) | [index.ts](./2024/day17/index.ts) |
+| 18  | [?](https://adventofcode.com/2024/day/18) | [index.ts](./2024/day18/index.ts) |
+| 19  | [?](https://adventofcode.com/2024/day/19) | [index.ts](./2024/day19/index.ts) |
+| 20  | [?](https://adventofcode.com/2024/day/20) | [index.ts](./2024/day20/index.ts) |
+| 21  | [?](https://adventofcode.com/2024/day/21) | [index.ts](./2024/day21/index.ts) |
+| 22  | [?](https://adventofcode.com/2024/day/22) | [index.ts](./2024/day22/index.ts) |
+| 23  | [?](https://adventofcode.com/2024/day/23) | [index.ts](./2024/day23/index.ts) |
+| 24  | [?](https://adventofcode.com/2024/day/24) | [index.ts](./2024/day24/index.ts) |
+| 25  | [?](https://adventofcode.com/2024/day/25) | [index.ts](./2024/day25/index.ts) |
 
 </details>
 
