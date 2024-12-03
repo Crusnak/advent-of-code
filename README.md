@@ -13,13 +13,14 @@ My solutions throughtout the years doing [AoC](https://adventofcode.com/).
 | --- | ---                                                                     |-----------------------------------|
 | 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1)               | [index.ts](./2024/day01/index.ts) |
 | 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [index.ts](./2024/day02/index.ts) |
+| 3   | [Mull It Over](https://adventofcode.com/2024/day/3)  | [index.ts](./2024/day03/index.ts) |
+
 
 <details>
 <summary>Not released yet</summary>
 
 | Day | Problem                                   | Solution                          |
 | --- | ---                                       |-----------------------------------|
-| 3   | [?](https://adventofcode.com/2024/day/3)  | [index.ts](./2024/day03/index.ts) |
 | 4   | [?](https://adventofcode.com/2024/day/4)  | [index.ts](./2024/day04/index.ts) |
 | 5   | [?](https://adventofcode.com/2024/day/5)  | [index.ts](./2024/day05/index.ts) |
 | 6   | [?](https://adventofcode.com/2024/day/6)  | [index.ts](./2024/day06/index.ts) |
