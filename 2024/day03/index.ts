@@ -1,6 +1,6 @@
 import {Day} from "../utils/Day.ts";
 
-export default class Day02 extends Day {
+export default class Day03 extends Day {
     partOne(): number {
         const regex = /mul\((\d{1,3}),(\d{1,3})\)/g;
         const matches = this.input.matchAll(regex)
@@ -12,14 +12,14 @@ export default class Day02 extends Day {
     }
 
     partTwo(): number {
-        const regex = /(do\(\))|(don't\(\))|(mul\((\d{1,3}),(\d{1,3})\))/g;
+        const regex = /do\(\)|don't\(\)|mul\((\d{1,3}),(\d{1,3})\)/g;
         const matches = this.input.matchAll(regex)
         let sum = 0
         let enabled = true
         for (const match of matches) {
             if (match[0] === "don't()") enabled = false
             else if (match[0] === "do()") enabled = true
-            else if (enabled) sum += parseInt(match[4]) * parseInt(match[5])
+            else if (enabled) sum += parseInt(match[1]) * parseInt(match[2])
         }
         return sum
     }

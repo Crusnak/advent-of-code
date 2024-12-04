@@ -9,7 +9,7 @@ function measureTimedValue(handler: () => unknown) {
 export abstract class Day {
     protected input: string
     get inputAsLines(): string[] {
-        return this.input.split('\n')
+        return this.input.split(/\r?\n/)
     }
 
     constructor(input: string) {
